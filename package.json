@@ -3,6 +3,7 @@
 	"type": "module",
 	"license": "MIT",
 	"scripts": {
+		"prepare": "lefthook install",
 		"astro": "astro",
 		"dev": "astro dev",
 		"types": "wrangler types --include-runtime --include-env",
@@ -22,6 +23,7 @@
 		"astro": "5.12.9",
 		"banal": "1.6.4",
 		"browserslist": "4.25.2",
+		"lefthook": "1.12.3",
 		"lightningcss": "1.30.1",
 		"size-limit": "11.2.0",
 		"typescript": "5.9.2",
