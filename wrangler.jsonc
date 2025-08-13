@@ -1,4 +1,5 @@
 {
+	"$schema": "node_modules/wrangler/config-schema.json",
 	"account_id": "1dc7f5dfd6f1830ea5b903d051c6d624",
 	"compatibility_date": "2025-08-13",
 	"main": "dist/_worker.js/index.js",
@@ -6,5 +7,13 @@
 	"assets": {
 		"binding": "ASSETS",
 		"directory": "./dist"
-	}
+	},
+	"workers_dev": true,
+	"preview_urls": true,
+	"routes": [
+		{
+			"pattern": "ai.craftlions.com",
+			"custom_domain": true
+		}
+	]
 }
