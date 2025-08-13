@@ -1,6 +1,7 @@
 {
 	"name": "ai-tools",
 	"type": "module",
+	"license": "MIT",
 	"scripts": {
 		"astro": "astro",
 		"dev": "astro dev",
