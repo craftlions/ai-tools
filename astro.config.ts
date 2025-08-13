@@ -1,5 +1,6 @@
 import cloudflare from "@astrojs/cloudflare";
 import { defineConfig } from "astro/config";
+import expressiveCode from "astro-expressive-code";
 import browserslist from "browserslist";
 import { browserslistToTargets } from "lightningcss";
 
@@ -36,4 +37,5 @@ export default defineConfig({
 		liveContentCollections: true,
 		preserveScriptOrder: true,
 	},
+	integrations: [expressiveCode()],
 });
