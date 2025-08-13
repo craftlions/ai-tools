@@ -5,6 +5,7 @@
 	"scripts": {
 		"astro": "astro",
 		"dev": "astro dev",
+		"types": "wrangler types --include-runtime --include-env",
 		"check": "astro check",
 		"lint": "biome check",
 		"size": "astro build && wrangler deploy --dry-run --outdir .wrangler/size --metafile && size-limit && banal -M .wrangler/size/bundle-meta.json",
