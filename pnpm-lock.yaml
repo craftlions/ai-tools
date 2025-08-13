@@ -35,6 +35,9 @@ importers:
       browserslist:
         specifier: 4.25.2
         version: 4.25.2
+      htmx.org:
+        specifier: 2.0.6
+        version: 2.0.6
       lefthook:
         specifier: 1.12.3
         version: 1.12.3
@@ -1495,6 +1498,9 @@ packages:
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
+
+  htmx.org@2.0.6:
+    resolution: {integrity: sha512-7ythjYneGSk3yCHgtCnQeaoF+D+o7U2LF37WU3O0JYv3gTZSicdEFiI/Ai/NJyC5ZpYJWMpUb11OC5Lr6AfAqA==}
 
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
@@ -4072,6 +4078,8 @@ snapshots:
   html-escaper@3.0.3: {}
 
   html-void-elements@3.0.0: {}
+
+  htmx.org@2.0.6: {}
 
   http-cache-semantics@4.2.0: {}
 
