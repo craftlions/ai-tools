@@ -6,16 +6,20 @@
 		"astro": "astro",
 		"dev": "astro dev",
 		"check": "astro check",
+		"lint": "biome check",
+		"size": "astro build && wrangler deploy --dry-run --outdir .wrangler/size --metafile && size-limit && banal -M .wrangler/size/bundle-meta.json",
 		"build": "astro build",
 		"preview": "astro build && wrangler dev",
-		"deploy": "astro build && wrangler deploy",
-		"lint": "biome check"
+		"deploy": "astro build && wrangler deploy"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.4",
 		"@astrojs/cloudflare": "12.6.3",
 		"@biomejs/biome": "2.1.4",
+		"@size-limit/file": "11.2.0",
 		"astro": "5.12.9",
+		"banal": "1.6.4",
+		"size-limit": "11.2.0",
 		"typescript": "5.9.2",
 		"wrangler": "4.29.0"
 	},
