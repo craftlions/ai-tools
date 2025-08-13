@@ -15,5 +15,15 @@
 			"pattern": "ai.craftlions.com",
 			"custom_domain": true
 		}
-	]
+	],
+	"find_additional_modules": true,
+	"rules": [
+		{
+			"type": "ESModule",
+			"globs": ["**/*.mjs"],
+			"fallthrough": true
+		}
+	],
+	"minify": false,
+	"upload_source_maps": true
 }
