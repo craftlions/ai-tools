@@ -6,6 +6,9 @@
 		"useIgnoreFile": true,
 		"defaultBranch": "main"
 	},
+	"files": {
+		"includes": ["**", "!**/worker-configuration.d.ts"]
+	},
 	"formatter": {
 		"enabled": true
 	},
