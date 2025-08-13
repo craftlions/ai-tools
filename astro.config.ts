@@ -31,4 +31,9 @@ export default defineConfig({
 		},
 	},
 	compressHTML: false,
+	experimental: {
+		contentIntellisense: true,
+		liveContentCollections: true,
+		preserveScriptOrder: true,
+	},
 });
